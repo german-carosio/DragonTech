@@ -12,6 +12,7 @@ router.get("/register", MainController.register);
 router.get("/productList", MainController.productList);
 router.get("/productDetail/:id", MainController.productDetail);
 router.get("/productCart", MainController.productCart);
+router.get("/administrador", MainController.administrador);
 
 
 //exportar el router

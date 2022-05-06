@@ -14,7 +14,7 @@
         <section class="main-section">
 
             <article class="section-img">
-                <img src="/img/pantalla.png" alt="imagen principal del index">
+                <img src="/img/bannerHome.jpg" alt="imagen principal del index">
             </article>
 
         </section>
@@ -46,17 +46,20 @@
         <section class="main-section3">
             
             <% productos.forEach(element => { %>
-            <article>
-                <a href="/productDetail/<%= element.id %> ">
-                    <img src="/img/<%=element.img%>.jpg " alt="">
-                    <h3><%= element.nombre %> </h3>
-                </a>
-                <p><%= element.precio %> </p>
-            </article>
+            
+
+                <article>
+                    <a href="/productDetail/<%= element.id %> ">
+                        <img src="/img/<%=element.img%>.jpg " alt="">
+                        <h3><%= element.nombre %> </h3>
+                    </a>
+                    <p><%= element.precio %> </p>
+                </article>
+
+           
             <% }) %> 
 
         </section>
-
 
     </main>
     
