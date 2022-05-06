@@ -11,7 +11,7 @@ router.get("/login", MainController.login);
 router.get("/register", MainController.register);
 router.get("/productList", MainController.productList);
 router.get("/productDetail/:id", MainController.productDetail);
-router.get("/categorias/:categoria", MainController.categorias);
+router.get("/categorias", MainController.categorias);
 router.get("/productCart", MainController.productCart);
 router.get("/administrador", MainController.administrador);
 

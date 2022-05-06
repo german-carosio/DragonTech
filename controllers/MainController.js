@@ -33,6 +33,7 @@ let MainController = {
      },
 
     categorias: (req,res) => {
+    
          res.render("categorias");
     },
 
